@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="editor-container">
+        <div class="user-list">
+            <h3>Active Users</h3>
+            <ul id="user-list"></ul>
+        </div>
+
+        <div class="editor" contenteditable="true" id="text-editor">
+            Start typing here...
+        </div>
+
+        <div class="comments">
+            <h3>Comments</h3>
+            <div id="comments-section"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
